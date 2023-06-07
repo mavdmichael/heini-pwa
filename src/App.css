@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+.wrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  /* overflow-y: scroll; */
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
+
+  display: flex;
+
+  /* background-color: #243333; */
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  color: white;
+}
+
+.scroll-wrapper {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  width: 100%;
+  padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom) 0;
+  overflow-y: scroll;
+}
+
+main {
+  min-height: 100dvh;
+  height: 1000px;
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  /* color: #243333; */
+}
