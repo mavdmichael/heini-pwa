@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="wrapper">
       <div className="scroll-wrapper">
-        <main>hej</main>
+        <main>Hej, Heini</main>
       </div>
     </div>
   );
